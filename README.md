@@ -28,9 +28,6 @@ python download_sentinel.py --region lahore --year 2019
 python download_sentinel.py --region lahore --year 2024
 python download_sentinel.py --region floods --year 2022 --month 8
 
-# 7. Ablation: switch to concatenation mode
-#    Edit configs/default.yaml → diff_mode: "concatenate"
-#    Then re-run train.py
 ```
 
 ## Switching Diff Modes
@@ -47,12 +44,17 @@ Change `diff_mode` in `configs/default.yaml`:
 | Test F1   | > 0.78 |
 
 ---
+## Training Logs 
+<img width="931" height="730" alt="image" src="https://github.com/user-attachments/assets/fdba6c94-55ab-4bd4-858b-b92ca9ec1a3e" />
+## Training Curve
+<img width="980" height="474" alt="image" src="https://github.com/user-attachments/assets/346f609e-0611-45f9-a6f4-bf27b5a7a415" />
+## Test Results
+<img width="394" height="149" alt="image" src="https://github.com/user-attachments/assets/8221f0b9-93f1-47ce-8a87-826139e8386d" />
+## Change Mask VIS
+<img width="983" height="342" alt="image" src="https://github.com/user-attachments/assets/dba6f29f-8de1-4593-a823-d81e2f75b447" />
 
-## Experiment Log Template
 
-| diff_mode   | epochs | lr     | val_F1 | test_F1 | test_IoU | notes |
-|-------------|--------|--------|--------|---------|----------|-------|
-| subtract    |        | 1e-4   |        |         |          |       |
-| concatenate |        | 1e-4   |        |         |          |       |
-|             |        |        |        |         |          |       |
-|             |        |        |        |         |          |       |
+
+
+
+
