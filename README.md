@@ -46,10 +46,13 @@ Change `diff_mode` in `configs/default.yaml`:
 ---
 ## Training Logs 
 <img width="931" height="730" alt="image" src="https://github.com/user-attachments/assets/fdba6c94-55ab-4bd4-858b-b92ca9ec1a3e" />
+
 ## Training Curve
 <img width="980" height="474" alt="image" src="https://github.com/user-attachments/assets/346f609e-0611-45f9-a6f4-bf27b5a7a415" />
+
 ## Test Results
 <img width="394" height="149" alt="image" src="https://github.com/user-attachments/assets/8221f0b9-93f1-47ce-8a87-826139e8386d" />
+
 ## Change Mask VIS
 <img width="983" height="342" alt="image" src="https://github.com/user-attachments/assets/dba6f29f-8de1-4593-a823-d81e2f75b447" />
 
